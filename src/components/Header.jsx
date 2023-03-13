@@ -12,7 +12,7 @@ function Header() {
         <Link href="/about">About</Link>
       </div>
       <div className="menuIcon">
-        <Link  href="/">
+        <Link href="/">
           <Image className="logo" src={logo} placeholder="logo" />
         </Link>
       </div>
