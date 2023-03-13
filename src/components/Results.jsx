@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Results({ results }) {
+const Results = ({results}) => {
   return (
     <>
       {results.map((result) => (
@@ -8,4 +8,6 @@ export default function Results({ results }) {
       ))}
     </>
   );
-}
+};
+
+export default Results;

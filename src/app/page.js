@@ -10,12 +10,10 @@ export default async function Home({ searchParams }) {
     }?api_key=${API_KEY}`,
     { next: { revalidate: 10000 } }
   );
-  const data = await res.json();
-  const results = data.results;
-  // console.log(results);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
-
+  const data = await res.json();
+  const results = data.results;
   return <Results results={results} />;
 }
