@@ -1,8 +1,32 @@
-.menuBar{
-    background-color: rgb(100, 122, 246);
-    padding: 0 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
+.menuBar {
+  background-color: rgb(17, 22, 67);
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+
+}
+
+.menuLinks {
+  display: flex;
+  gap: 10px;
+
+}
+
+.menuLinks a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.menuIcon {
+  width: 50px;
+  display: flex;
+}
+.logo{
+  max-width: 100%;
+  height: 30px;
+  object-fit:contain;
+
+}

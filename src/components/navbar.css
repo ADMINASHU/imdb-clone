@@ -1,0 +1,13 @@
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    background-color: rgba(17, 22, 67, 0.868);
+
+}
+.navLinks a{
+    text-decoration: none;
+    color: antiquewhite;
+}
