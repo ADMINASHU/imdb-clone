@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import "./header.css";
-import logo from "../../public/logo.png";
 
 function Header() {
   return (
@@ -13,7 +12,7 @@ function Header() {
       </div>
       <div className="menuIcon">
         <Link href="/">
-          <Image className="logo" src={logo} placeholder="logo" />
+          <Image className="logo" src="/logo.png" width={200} height={40} placeholder="logo" />
         </Link>
       </div>
     </div>

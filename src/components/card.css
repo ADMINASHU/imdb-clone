@@ -1,0 +1,30 @@
+.card {
+    color: antiquewhite;
+    background-color: rgb(17, 22, 67);
+    width: 240px;
+    height: 310px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cardTitle {
+    font-size: 22px;
+}
+
+.cardOverview {
+    color: rgb(215, 223, 250);
+    height: 58px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.extra {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0 10px; */
+}

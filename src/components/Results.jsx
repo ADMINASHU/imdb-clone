@@ -1,12 +1,14 @@
 import React from "react";
+import Card from "./Card";
+import "./result.css";
 
-const Results = ({results}) => {
+const Results = ({ results }) => {
   return (
-    <>
+    <div className="grid">
       {results.map((result) => (
-        <div key={result.id}>{result.original_title}</div>
+        <Card key={result.id} result={result} />
       ))}
-    </>
+    </div>
   );
 };
 

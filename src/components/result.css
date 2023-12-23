@@ -1,0 +1,7 @@
+.grid {
+    display: grid;
+    /* gap: 20px; */
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(17, 22, 67);
+    padding: 5%;
+}
